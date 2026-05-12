@@ -48,7 +48,7 @@ export default function Doctor() {
           <div className="lg:col-span-7">
             <h3 className="text-2xl lg:text-3xl font-bold text-brand-dark">Dr. Johnathan Miller, MD</h3>
             <p className="mt-1 text-brand-green font-semibold">
-              Medical Cannabis Evaluating Physician (Illinois)
+              Medical Cannabis Evaluating Physician (Belleville)
             </p>
 
             <dl className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -60,7 +60,7 @@ export default function Doctor() {
               </div>
               <div className="bg-brand-gray-soft rounded-2xl p-4">
                 <dt className="text-[11px] uppercase tracking-wider font-semibold text-brand-gray">
-                  Illinois License
+                  Belleville License
                 </dt>
                 <dd className="mt-1 text-sm font-bold text-brand-dark tabular">36156953</dd>
               </div>
@@ -73,7 +73,7 @@ export default function Doctor() {
             </dl>
 
             <p className="mt-6 text-[15px] leading-relaxed text-brand-slate">
-              A licensed general physician in Illinois who applies a holistic, patient-focused approach
+              A licensed general physician in Belleville who applies a holistic, patient-focused approach
               while conducting thorough, state-compliant medical marijuana evaluations, ensuring each
               assessment prioritizes patient safety, clear communication, and adherence to established
               medical standards and regulatory guidelines.
@@ -81,7 +81,7 @@ export default function Doctor() {
 
             <div className="mt-7">
               <a href="#book" className="btn-primary">
-                Speak With Your Illinois Doctor
+                Speak With Your Belleville Doctor
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                   <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>

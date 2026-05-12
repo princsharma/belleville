@@ -174,7 +174,7 @@ export default function Footer() {
           <div className="text-xs text-white/50 leading-relaxed max-w-4xl">
             <strong className="text-white/80">Medical Disclaimer:</strong> This is a telehealth service
             that connects patients with licensed physicians. We do not dispense cannabis or guarantee
-            state approval. All evaluations are conducted by independently licensed Illinois physicians.
+            state approval. All evaluations are conducted by independently licensed Belleville physicians.
             Cannabis remains federally controlled.
           </div>
 

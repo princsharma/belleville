@@ -2,7 +2,7 @@ const benefits = [
   {
     title: 'Legal Protection',
     body:
-      'Enjoy peace of mind knowing you’re fully compliant with Illinois cannabis laws and IDPH guidelines.',
+      'Enjoy peace of mind knowing you’re fully compliant with Belleville cannabis laws and IDPH guidelines.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M12 2l8 3v7c0 5-3.5 9-8 10-4.5-1-8-5-8-10V5l8-3z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
@@ -50,7 +50,7 @@ const benefits = [
   {
     title: 'Home Cultivation Rights',
     body:
-      'Legally cultivate up to five cannabis plants per residence, as permitted under Illinois law.',
+      'Legally cultivate up to five cannabis plants per residence, as permitted under Belleville law.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M12 21v-6M12 15c-3 0-5-2-5-5 0 0 5 0 5 5zM12 15c3 0 5-2 5-5 0 0-5 0-5 5z" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
@@ -83,7 +83,7 @@ export default function Benefits() {
           </h2>
           <p className="mt-5 text-lg text-brand-slate leading-relaxed">
             Your Belleville MMJ card gives you benefits that recreational users don&apos;t have — saving you
-            money, expanding access, and protecting your rights under Illinois law. Here&apos;s what you can expect:
+            money, expanding access, and protecting your rights under Belleville law. Here&apos;s what you can expect:
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export default function Benefits() {
         <div className="mt-14 max-w-4xl mx-auto bg-white rounded-3xl border border-brand-gray-line shadow-card p-8 lg:p-10 grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
           <div className="md:col-span-2">
             <h3 className="text-xl lg:text-2xl font-bold text-brand-dark">
-              Explore the benefits available to qualifying Illinois patients.
+              Explore the benefits available to qualifying Belleville patients.
             </h3>
             <p className="mt-2 text-brand-slate">
               Thousands of patients are already taking advantage of an MMJ card. Now, it&apos;s your turn.

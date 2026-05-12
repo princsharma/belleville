@@ -3,7 +3,7 @@ const steps = [
     n: '01',
     title: 'Book Your Appointment',
     body:
-      'Provide your basic details, a valid Illinois ID, and a brief health history through our HIPAA-compliant form. Schedule your online consultation for $149 with an Illinois-licensed doctor.',
+      'Provide your basic details, a valid Belleville ID, and a brief health history through our HIPAA-compliant form. Schedule your online consultation for $149 with an Belleville-licensed doctor.',
     image:
       'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=900&q=80&auto=format&fit=crop',
     alt: 'Online appointment booking',
@@ -21,7 +21,7 @@ const steps = [
     n: '03',
     title: 'Receive Your MMJ Certification',
     body:
-      'If clinically approved, your state-registered physician submits your certification to the IDPH system. Log in to the Medical Cannabis Patient Program (MCPP) portal, pay the state fee, and download your digital Illinois medical cannabis card.',
+      'If clinically approved, your state-registered physician submits your certification to the IDPH system. Log in to the Medical Cannabis Patient Program (MCPP) portal, pay the state fee, and download your digital Belleville medical cannabis card.',
     image:
       'https://images.unsplash.com/photo-1606206522398-de1c8e9bcaeb?w=900&q=80&auto=format&fit=crop',
     alt: 'Patient receiving digital MMJ certificate',
@@ -39,8 +39,8 @@ export default function Process() {
             <span className="text-gradient">Belleville Medical Cannabis Card</span>
           </h2>
           <p className="mt-5 text-lg text-brand-slate leading-relaxed">
-            Obtain your medical marijuana recommendation through licensed Illinois physicians in full
-            compliance with the Illinois Department of Public Health (IDPH) Medical Cannabis Patient
+            Obtain your medical marijuana recommendation through licensed Belleville physicians in full
+            compliance with the Belleville Department of Public Health (IDPH) Medical Cannabis Patient
             Program. Here&apos;s how it works:
           </p>
         </div>

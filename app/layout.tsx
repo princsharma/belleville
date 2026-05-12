@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description:
-    'Get your Belleville, IL medical marijuana card online with a licensed Illinois physician. HIPAA-compliant telehealth, same-day appointments, money-back guarantee.',
+    'Get your Belleville, IL medical marijuana card online with a licensed Belleville physician. HIPAA-compliant telehealth, same-day appointments, money-back guarantee.',
   keywords: [
     'Belleville medical marijuana card',
     'Belleville MMJ card',
-    'Illinois medical cannabis card',
+    'Belleville medical cannabis card',
     'Belleville MMJ doctor',
     'medical marijuana card Belleville IL',
-    'telehealth MMJ Illinois',
+    'telehealth MMJ Belleville',
     'IDPH medical cannabis registry',
   ],
   authors: [{ name: SITE.name }],
@@ -42,14 +42,14 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} | Belleville IL Medical Cannabis Card Online`,
     description:
-      'Speak with a licensed Illinois physician from home. Same-day Belleville MMJ certifications, HIPAA-compliant.',
+      'Speak with a licensed Belleville physician from home. Same-day Belleville MMJ certifications, HIPAA-compliant.',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: SITE.name }],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${SITE.name} | Belleville IL Medical Cannabis Card`,
     description:
-      'Licensed Illinois physicians. HIPAA-compliant telehealth. Same-day Belleville MMJ certifications.',
+      'Licensed Belleville physicians. HIPAA-compliant telehealth. Same-day Belleville MMJ certifications.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -78,8 +78,8 @@ const jsonLd = {
       email: SITE.email,
       priceRange: '$129–$149',
       areaServed: [
-        { '@type': 'City', name: 'Belleville', containedInPlace: 'Illinois' },
-        { '@type': 'State', name: 'Illinois' },
+        { '@type': 'City', name: 'Belleville', containedInPlace: 'Belleville' },
+        { '@type': 'State', name: 'Belleville' },
       ],
       address: {
         '@type': 'PostalAddress',
@@ -124,7 +124,7 @@ const jsonLd = {
           acceptedAnswer: {
             '@type': 'Answer',
             text:
-              'A valid Illinois ID and any supporting medical records for your qualifying condition. If you do not have records, our physicians can help determine next steps.',
+              'A valid Belleville ID and any supporting medical records for your qualifying condition. If you do not have records, our physicians can help determine next steps.',
           },
         },
         {

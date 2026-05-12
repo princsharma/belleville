@@ -1,7 +1,7 @@
 const tools = [
   {
     cta: 'Check',
-    title: 'Marijuana Legality in Illinois',
+    title: 'Marijuana Legality in Belleville',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M12 2l8 3v7c0 5-3.5 9-8 10-4.5-1-8-5-8-10V5l8-3z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
@@ -11,7 +11,7 @@ const tools = [
   },
   {
     cta: 'Find out',
-    title: 'Do I Qualify in Illinois',
+    title: 'Do I Qualify in Belleville',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
@@ -21,7 +21,7 @@ const tools = [
   },
   {
     cta: 'Calculate',
-    title: 'Tax Savings in Illinois',
+    title: 'Tax Savings in Belleville',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" strokeWidth="1.6" />
@@ -31,7 +31,7 @@ const tools = [
   },
   {
     cta: 'Calculate',
-    title: 'Edible Dosage in Illinois',
+    title: 'Edible Dosage in Belleville',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M4 8h16l-2 12H6L4 8z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
@@ -41,7 +41,7 @@ const tools = [
   },
   {
     cta: 'View',
-    title: 'Possession Laws in Illinois',
+    title: 'Possession Laws in Belleville',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path d="M6 3h9l4 4v14H6z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
@@ -58,7 +58,7 @@ export default function Tools() {
         <div className="text-center mb-12">
           <span className="tag-pill">Free tools</span>
           <h2 className="mt-5 text-3xl lg:text-4xl font-extrabold tracking-tight text-brand-dark">
-            Illinois MMJ <span className="text-gradient">resources & tools</span>
+            Belleville MMJ <span className="text-gradient">resources & tools</span>
           </h2>
           <p className="mt-4 text-base text-brand-slate max-w-xl mx-auto">
             Free utilities to help you understand your rights, savings, and dosing.

@@ -7,7 +7,7 @@ export const SITE = {
   email: 'contact@medicalmarijuanacardbelleville.com',
   emailHref: 'mailto:contact@medicalmarijuanacardbelleville.com',
   city: 'Belleville',
-  state: 'Illinois',
+  state: 'Belleville',
   stateAbbr: 'IL',
   stats: {
     patients: '91.2K+',

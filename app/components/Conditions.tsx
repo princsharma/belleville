@@ -34,7 +34,7 @@ export default function Conditions() {
                   <span className="text-xs font-semibold text-brand-gray uppercase tracking-wider">Qualifying</span>
                 </div>
                 <div className="text-2xl font-extrabold text-brand-dark">40+ conditions</div>
-                <div className="text-xs text-brand-slate mt-1">covered by Illinois law</div>
+                <div className="text-xs text-brand-slate mt-1">covered by Belleville law</div>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function Conditions() {
           <div className="lg:col-span-7">
             <span className="tag-pill">Do you qualify?</span>
             <h2 className="mt-5 text-4xl lg:text-5xl font-extrabold tracking-tight text-brand-dark">
-              Illinois recognises <span className="text-gradient">over 40 conditions.</span>
+              Belleville recognises <span className="text-gradient">over 40 conditions.</span>
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-brand-slate max-w-prose">
               The state&apos;s Compassionate Use program covers a wide range of debilitating and

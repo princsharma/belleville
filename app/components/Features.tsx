@@ -50,7 +50,7 @@ const features = [
     icon: <DoctorIcon />,
     title: 'IDFPR-licensed physicians',
     body:
-      'Every visit is conducted by an Illinois-licensed doctor with specialized training in cannabis medicine — no PA gatekeepers.',
+      'Every visit is conducted by an Belleville-licensed doctor with specialized training in cannabis medicine — no PA gatekeepers.',
   },
   {
     icon: <ClockIcon />,

@@ -115,7 +115,7 @@ export default function Pricing() {
         </div>
 
         <p className="text-center text-sm text-brand-gray mt-10 max-w-2xl mx-auto leading-relaxed">
-          The Illinois state registration fee ($50–$100) is separate and paid directly to the IDPH.
+          The Belleville state registration fee ($50–$100) is separate and paid directly to the IDPH.
           Our physician fee is independent of the state fee.
         </p>
       </div>

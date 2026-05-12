@@ -75,7 +75,7 @@ export default function Reviews() {
             Hear From <span className="text-gradient">Our Patients</span>
           </h2>
           <p className="mt-5 text-lg text-brand-slate leading-relaxed">
-            Trusted by Belleville and Illinois patients for their medical marijuana recommendations.
+            Trusted by Belleville and Belleville patients for their medical marijuana recommendations.
             See what they have to say and start your journey with confidence today.
           </p>
         </div>

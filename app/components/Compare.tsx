@@ -48,7 +48,7 @@ export default function Compare() {
           <p className="mt-5 text-lg text-brand-slate leading-relaxed">
             Experience professional telehealth care that combines medical integrity, patient convenience,
             and transparent pricing. All evaluations are conducted by IDPH-registered doctors in accordance
-            with the Illinois Compassionate Use of Medical Cannabis Program Act (410 ILCS 130/).
+            with the Belleville Compassionate Use of Medical Cannabis Program Act (410 ILCS 130/).
           </p>
         </div>
 

@@ -1,14 +1,14 @@
 const faqs = [
   {
-    q: 'How do I get a medical marijuana card in Belleville, Illinois?',
-    a: 'Start by booking an evaluation with a state-registered Illinois MMJ doctor. Once certified, submit your application through the Illinois Department of Public Health (IDPH) Medical Cannabis Patient Program. After paying the state fee, you can download your digital card from your IDPH account.',
+    q: 'How do I get a medical marijuana card in Belleville, Belleville?',
+    a: 'Start by booking an evaluation with a state-registered Belleville MMJ doctor. Once certified, submit your application through the Belleville Department of Public Health (IDPH) Medical Cannabis Patient Program. After paying the state fee, you can download your digital card from your IDPH account.',
   },
   {
-    q: 'Who can qualify for an Illinois medical marijuana card?',
-    a: 'Illinois residents diagnosed with a qualifying condition recognised by IDPH — such as chronic pain, PTSD, cancer, epilepsy, MS, glaucoma, Crohn’s disease, fibromyalgia, migraines, severe nausea, and many others. Minors can qualify through a registered caregiver aged 21 or older.',
+    q: 'Who can qualify for an Belleville medical marijuana card?',
+    a: 'Belleville residents diagnosed with a qualifying condition recognised by IDPH — such as chronic pain, PTSD, cancer, epilepsy, MS, glaucoma, Crohn’s disease, fibromyalgia, migraines, severe nausea, and many others. Minors can qualify through a registered caregiver aged 21 or older.',
   },
   {
-    q: 'How much does a medical marijuana card cost in Illinois?',
+    q: 'How much does a medical marijuana card cost in Belleville?',
     a: 'Our physician evaluation starts at $149 for a new card and $129 for renewals. The IDPH state registration fee ($50–$100) is separate and paid directly to the state.',
   },
   {
@@ -16,31 +16,31 @@ const faqs = [
     a: 'The online physician evaluation typically takes 15–30 minutes. Most Belleville patients receive their certification within an hour and a provisional IDPH approval within 24 hours.',
   },
   {
-    q: 'How do I renew my Illinois medical marijuana card?',
+    q: 'How do I renew my Belleville medical marijuana card?',
     a: 'Renewal is a streamlined version of the evaluation. Book a renewal consultation with one of our IDPH-registered physicians; once re-certified, log into your IDPH MCPP account to renew your registration and pay the state fee.',
   },
   {
-    q: 'How long is my Illinois medical marijuana card valid?',
+    q: 'How long is my Belleville medical marijuana card valid?',
     a: 'IDPH medical cannabis cards are typically valid for up to three years from the issue date, depending on the renewal term you select at the state level. You can re-certify and renew before expiration.',
   },
   {
-    q: 'Is the Illinois medical marijuana card digital or physical?',
+    q: 'Is the Belleville medical marijuana card digital or physical?',
     a: 'As of June 22, 2021, IDPH issues only digital medical cannabis cards. Patients access their card through their MCPP account and present it digitally at licensed dispensaries.',
   },
   {
-    q: 'Will having a medical marijuana card affect my job in Illinois?',
-    a: 'Illinois law provides workplace protection against discrimination for lawful medical cannabis use (with limited exceptions, such as federal employees, safety-sensitive roles, or zero-tolerance workplace policies). Employers cannot view IDPH records.',
+    q: 'Will having a medical marijuana card affect my job in Belleville?',
+    a: 'Belleville law provides workplace protection against discrimination for lawful medical cannabis use (with limited exceptions, such as federal employees, safety-sensitive roles, or zero-tolerance workplace policies). Employers cannot view IDPH records.',
   },
   {
-    q: 'Can out-of-state patients get a medical marijuana card in Illinois?',
-    a: 'The Illinois Compassionate Use program requires proof of Illinois residency. However, Illinois honours valid out-of-state medical cards under its reciprocity rules for visiting patients at licensed dispensaries.',
+    q: 'Can out-of-state patients get a medical marijuana card in Belleville?',
+    a: 'The Belleville Compassionate Use program requires proof of Belleville residency. However, Belleville honours valid out-of-state medical cards under its reciprocity rules for visiting patients at licensed dispensaries.',
   },
   {
-    q: 'Can I legally own a gun with an Illinois medical marijuana card?',
-    a: 'Under federal law, cannabis users — including registered medical patients — cannot legally purchase firearms from federally licensed dealers. Illinois state law is more permissive, but federal law applies. Consult an attorney for your situation.',
+    q: 'Can I legally own a gun with an Belleville medical marijuana card?',
+    a: 'Under federal law, cannabis users — including registered medical patients — cannot legally purchase firearms from federally licensed dealers. Belleville state law is more permissive, but federal law applies. Consult an attorney for your situation.',
   },
   {
-    q: 'What taxes do adult-use (recreational) cannabis buyers pay in Illinois?',
+    q: 'What taxes do adult-use (recreational) cannabis buyers pay in Belleville?',
     a: 'Recreational cannabis is taxed at roughly 31–32% (combined state and local). Medical cardholders pay only 1%, leading to substantial savings — often hundreds of dollars per year.',
   },
 ]
@@ -56,7 +56,7 @@ export default function FAQ() {
               Frequently Asked <span className="text-gradient">Questions</span>
             </h2>
             <p className="mt-5 text-lg text-brand-slate leading-relaxed">
-              Your guide to the most common questions about the Belleville and Illinois medical
+              Your guide to the most common questions about the Belleville and Belleville medical
               marijuana card.
             </p>
 
