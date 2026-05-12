@@ -59,7 +59,7 @@ export default function Header() {
             </svg>
             {SITE.phone}
           </a>
-          <a href="#book" className="btn-primary text-sm">
+          <a href="#book" className="hidden md:inline-flex btn-primary text-sm">
             Get started
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
               <path
@@ -88,13 +88,16 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="md:hidden border-t border-brand-gray-line bg-white">
-          <nav className="px-6 py-4 flex flex-col gap-1 text-[15px] font-medium text-brand-slate">
+        <div className="md:hidden border-t border-brand-gray-line bg-white shadow-card">
+          <nav
+            aria-label="Mobile primary"
+            className="px-6 py-4 flex flex-col gap-1 text-[15px] font-medium text-brand-slate"
+          >
             {[
               { href: '#how-it-works', label: 'How it works' },
-              { href: '#conditions', label: 'Conditions' },
+              { href: '#doctor', label: 'Doctor' },
               { href: '#pricing', label: 'Pricing' },
-              { href: '#reviews', label: 'Reviews' },
+              { href: '#why', label: 'Why us?' },
               { href: '#faq', label: 'FAQ' },
             ].map((l) => (
               <a
@@ -107,6 +110,40 @@ export default function Header() {
               </a>
             ))}
           </nav>
+          <div className="px-6 pb-5 pt-3 border-t border-brand-gray-line/70 flex flex-col gap-3">
+            <a
+              href="#book"
+              onClick={() => setOpen(false)}
+              className="btn-primary w-full justify-center text-base py-3"
+            >
+              Get started
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path
+                  d="M2 7h10M8 3l4 4-4 4"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </a>
+            <a
+              href={SITE.phoneHref}
+              onClick={() => setOpen(false)}
+              className="inline-flex items-center justify-center gap-2 text-sm font-semibold text-brand-slate hover:text-brand-dark"
+            >
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path
+                  d="M11.5 9.5v2a1 1 0 01-1.1 1A10 10 0 011 3.6 1 1 0 012 2.5h2a1 1 0 011 .87c.07.5.2 1 .35 1.46a1 1 0 01-.23 1.05l-.85.85a8 8 0 003.5 3.5l.85-.85a1 1 0 011.05-.23 6.5 6.5 0 001.46.35 1 1 0 01.87 1z"
+                  stroke="currentColor"
+                  strokeWidth="1.4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              Call {SITE.phone}
+            </a>
+          </div>
         </div>
       )}
     </header>

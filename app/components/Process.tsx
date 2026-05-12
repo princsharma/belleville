@@ -14,8 +14,8 @@ const steps = [
     body:
       'Connect via secure video or phone call with an IDPH-registered doctor who will evaluate your medical condition and determine your eligibility for medical cannabis certification.',
     image:
-      'https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=900&q=80&auto=format&fit=crop',
-    alt: 'Older woman in a telemedicine video consultation with her doctor',
+      'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80&auto=format&fit=crop',
+    alt: 'Doctor in a telehealth video consultation with a patient',
   },
   {
     n: '03',
@@ -23,8 +23,8 @@ const steps = [
     body:
       'If clinically approved, your state-registered physician submits your certification to the IDPH system. Log in to the Medical Cannabis Patient Program (MCPP) portal, pay the state fee, and download your digital Belleville medical cannabis card.',
     image:
-      'https://images.unsplash.com/photo-1606206522398-de1c8e9bcaeb?w=900&q=80&auto=format&fit=crop',
-    alt: 'Patient receiving digital MMJ certificate',
+      'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=900&q=80&auto=format&fit=crop',
+    alt: 'Approved patient receiving digital MMJ certificate on phone',
   },
 ]
 
