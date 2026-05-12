@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Manrope } from 'next/font/google'
 import './globals.css'
 import { SITE } from './lib/site'
+import GoogleTagManager from './components/GoogleTagManager'
 
 const sans = Manrope({
   subsets: ['latin'],
@@ -159,6 +160,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="font-sans antialiased text-brand-dark bg-white">
+        <GoogleTagManager />
         {children}
       </body>
     </html>
