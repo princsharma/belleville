@@ -1,0 +1,168 @@
+import type { Metadata, Viewport } from 'next'
+import { Manrope } from 'next/font/google'
+import './globals.css'
+import { SITE } from './lib/site'
+
+const sans = Manrope({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+  weight: ['400', '500', '600', '700', '800'],
+})
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#0b6b4f',
+}
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE.url),
+  title: {
+    default: `${SITE.name} | Belleville IL Medical Cannabis Card Online`,
+    template: `%s | ${SITE.name}`,
+  },
+  description:
+    'Get your Belleville, IL medical marijuana card online with a licensed Illinois physician. HIPAA-compliant telehealth, same-day appointments, money-back guarantee.',
+  keywords: [
+    'Belleville medical marijuana card',
+    'Belleville MMJ card',
+    'Illinois medical cannabis card',
+    'Belleville MMJ doctor',
+    'medical marijuana card Belleville IL',
+    'telehealth MMJ Illinois',
+    'IDPH medical cannabis registry',
+  ],
+  authors: [{ name: SITE.name }],
+  alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: SITE.url,
+    siteName: SITE.name,
+    title: `${SITE.name} | Belleville IL Medical Cannabis Card Online`,
+    description:
+      'Speak with a licensed Illinois physician from home. Same-day Belleville MMJ certifications, HIPAA-compliant.',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: SITE.name }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${SITE.name} | Belleville IL Medical Cannabis Card`,
+    description:
+      'Licensed Illinois physicians. HIPAA-compliant telehealth. Same-day Belleville MMJ certifications.',
+    images: ['/og-image.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
+  category: 'health',
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'MedicalBusiness',
+      '@id': `${SITE.url}/#business`,
+      name: SITE.name,
+      url: SITE.url,
+      telephone: SITE.phone,
+      email: SITE.email,
+      priceRange: '$129–$149',
+      areaServed: [
+        { '@type': 'City', name: 'Belleville', containedInPlace: 'Illinois' },
+        { '@type': 'State', name: 'Illinois' },
+      ],
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Belleville',
+        addressRegion: 'IL',
+        addressCountry: 'US',
+      },
+      medicalSpecialty: 'Telehealth',
+      availableService: {
+        '@type': 'MedicalProcedure',
+        name: 'Medical Cannabis Evaluation',
+      },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.9',
+        reviewCount: '1280',
+      },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE.url}/#website`,
+      url: SITE.url,
+      name: SITE.name,
+      publisher: { '@id': `${SITE.url}/#business` },
+      inLanguage: 'en-US',
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'How long does the online evaluation take?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text:
+              'Most evaluations take 15 to 30 minutes via secure video or phone. Many Belleville patients complete the entire process in under an hour.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What documents do I need for my appointment?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text:
+              'A valid Illinois ID and any supporting medical records for your qualifying condition. If you do not have records, our physicians can help determine next steps.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Will my employer find out?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text:
+              'No. Your information is protected under HIPAA and is never shared with employers, insurers, or third parties.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How quickly will I get my Belleville MMJ card?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text:
+              'Your physician certification is usually delivered within one hour. After you submit the IDPH application you receive a provisional approval that allows immediate dispensary access.',
+          },
+        },
+      ],
+    },
+  ],
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className={`${sans.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
+      <body className="font-sans antialiased text-brand-dark bg-white">
+        {children}
+      </body>
+    </html>
+  )
+}

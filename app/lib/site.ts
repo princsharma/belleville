@@ -1,0 +1,30 @@
+export const SITE = {
+  name: 'Belleville MMJ Card Doctor',
+  shortName: 'Belleville MMJ',
+  url: 'https://medicalmarijuanacardbelleville.com',
+  phone: '(618) 555-0199',
+  phoneHref: 'tel:+16185550199',
+  email: 'contact@medicalmarijuanacardbelleville.com',
+  emailHref: 'mailto:contact@medicalmarijuanacardbelleville.com',
+  city: 'Belleville',
+  state: 'Illinois',
+  stateAbbr: 'IL',
+  stats: {
+    patients: '91.2K+',
+    rating: '4.9',
+    approval: '98%',
+    avgTime: '<30 min',
+    doctors: '50+',
+    experience: '6+',
+  },
+  pricing: {
+    newCard: 149,
+    renewal: 129,
+  },
+  platformRatings: [
+    { name: 'BBB', label: 'BBB Ratings', score: '4.7' },
+    { name: 'Google', label: 'Google Reviews', score: '4.8' },
+    { name: 'Real Reviews', label: 'Real Reviews', score: '4.9' },
+    { name: 'Trustpilot', label: 'Trustpilot Ratings', score: '4.7' },
+  ],
+} as const
