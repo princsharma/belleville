@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import FeaturedIn from './components/FeaturedIn'
@@ -12,6 +13,11 @@ import Reviews from './components/Reviews'
 import FAQ from './components/FAQ'
 import BookingForm from './components/BookingForm'
 import Footer from './components/Footer'
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+  openGraph: { url: '/' },
+}
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Belleville MMJ Card Doctor',
   shortName: 'Belleville MMJ',
-  url: 'https://medicalmarijuanacardbelleville.com',
+  url: 'https://www.medicalmarijuanacardbelleville.com',
   phone: '(618) 555-0199',
   phoneHref: 'tel:+16185550199',
   email: 'contact@medicalmarijuanacardbelleville.com',

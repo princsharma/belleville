@@ -34,11 +34,9 @@ export const metadata: Metadata = {
     'IDPH medical cannabis registry',
   ],
   authors: [{ name: SITE.name }],
-  alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: SITE.url,
     siteName: SITE.name,
     title: `${SITE.name} | Belleville IL Medical Cannabis Card Online`,
     description:
