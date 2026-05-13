@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
-  trailingSlash: false,
+  trailingSlash: true,
   // Helps Google crawlers and improves Core Web Vitals
   experimental: {
     optimizePackageImports: [],

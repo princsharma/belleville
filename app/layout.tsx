@@ -72,7 +72,7 @@ const jsonLd = {
       '@type': 'MedicalBusiness',
       '@id': `${SITE.url}/#business`,
       name: SITE.name,
-      url: SITE.url,
+      url: `${SITE.url}/`,
       telephone: SITE.phone,
       email: SITE.email,
       priceRange: '$129–$149',
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       '@type': 'WebSite',
       '@id': `${SITE.url}/#website`,
-      url: SITE.url,
+      url: `${SITE.url}/`,
       name: SITE.name,
       publisher: { '@id': `${SITE.url}/#business` },
       inLanguage: 'en-US',
