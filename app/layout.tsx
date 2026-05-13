@@ -20,12 +20,13 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} | Belleville IL Medical Cannabis Card Online`,
+    default: 'Apply Your Medical Marijuana Card Belleville | Online MMJ Help',
     template: `%s | ${SITE.name}`,
   },
   description:
-    'Get your Belleville, IL medical marijuana card online with a licensed Belleville physician. HIPAA-compliant telehealth, same-day appointments, money-back guarantee.',
+    'Get your Belleville medical marijuana card through secure online consultations, licensed physicians, and fast patient support.',
   keywords: [
+    'Medical Marijuana Card Belleville',
     'Belleville medical marijuana card',
     'Belleville MMJ card',
     'Belleville medical cannabis card',
@@ -39,16 +40,16 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: SITE.name,
-    title: `${SITE.name} | Belleville IL Medical Cannabis Card Online`,
+    title: 'Apply Your Medical Marijuana Card Belleville | Online MMJ Help',
     description:
-      'Speak with a licensed Belleville physician from home. Same-day Belleville MMJ certifications, HIPAA-compliant.',
+      'Get your Belleville medical marijuana card through secure online consultations, licensed physicians, and fast patient support.',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: SITE.name }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${SITE.name} | Belleville IL Medical Cannabis Card`,
+    title: 'Apply Your Medical Marijuana Card Belleville | Online MMJ Help',
     description:
-      'Licensed Belleville physicians. HIPAA-compliant telehealth. Same-day Belleville MMJ certifications.',
+      'Get your Belleville medical marijuana card through secure online consultations, licensed physicians, and fast patient support.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -63,6 +64,9 @@ export const metadata: Metadata = {
     },
   },
   category: 'health',
+  verification: {
+    google: 'M8HEARMV3CYZFdEApMen6gqrLHTkRkDMPm1d4cfishg',
+  },
 }
 
 const jsonLd = {
