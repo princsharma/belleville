@@ -1,4 +1,5 @@
 import { SITE } from '../lib/site'
+import HeroForm from './HeroForm'
 
 const trustPills = [
   {
@@ -124,46 +125,13 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right: hero image with floating cards */}
-          <div className="lg:col-span-5 relative animate-fade-up" style={{ animationDelay: '120ms' }}>
-            <div className="relative aspect-[4/5] w-full max-w-[500px] mx-auto">
-              <div className="absolute -inset-6 bg-brand-gradient opacity-20 blur-3xl rounded-[3rem]" aria-hidden="true" />
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80&auto=format&fit=crop"
-                alt="Doctor consulting a patient via telehealth"
-                className="relative w-full h-full object-cover rounded-[2rem] shadow-card-lg ring-1 ring-brand-gray-line"
-                loading="eager"
-              />
-
-              <div className="absolute -left-4 sm:-left-8 top-8 bg-white rounded-2xl shadow-card-lg p-4 flex items-center gap-3 animate-float-slow max-w-[230px]">
-                <span className="flex w-10 h-10 items-center justify-center rounded-xl bg-brand-green-soft text-brand-green">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-                    <path d="M4 10l4 4L16 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </span>
-                <div className="leading-tight">
-                  <div className="text-[13px] font-semibold text-brand-dark">IDPH approved</div>
-                  <div className="text-[11px] text-brand-gray">Sent · 24m ago</div>
-                </div>
-              </div>
-
-              <div
-                className="absolute -right-4 sm:-right-8 bottom-10 bg-white rounded-2xl shadow-card-lg p-4 animate-float-slow max-w-[210px]"
-                style={{ animationDelay: '1.5s' }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="w-2 h-2 rounded-full bg-brand-green" />
-                  <span className="text-[11px] uppercase tracking-wider font-semibold text-brand-gray">
-                    Approval rate
-                  </span>
-                </div>
-                <div className="text-3xl font-extrabold text-brand-dark tabular">{SITE.stats.approval}</div>
-                <div className="mt-2 h-1.5 w-full bg-brand-green-soft rounded-full overflow-hidden">
-                  <div className="h-full bg-brand-gradient rounded-full" style={{ width: '98%' }} />
-                </div>
-              </div>
-            </div>
+          {/* Right: lead-capture form */}
+          <div
+            id="book"
+            className="lg:col-span-5 relative animate-fade-up w-full max-w-[500px] mx-auto lg:max-w-none scroll-mt-24"
+            style={{ animationDelay: '120ms' }}
+          >
+            <HeroForm />
           </div>
         </div>
       </div>

@@ -11,7 +11,6 @@ import Pricing from './components/Pricing'
 import Compare from './components/Compare'
 import Reviews from './components/Reviews'
 import FAQ from './components/FAQ'
-import BookingForm from './components/BookingForm'
 import Footer from './components/Footer'
 
 export const metadata: Metadata = {
@@ -35,7 +34,6 @@ export default function Home() {
         <Compare />
         <Reviews />
         <FAQ />
-        <BookingForm />
       </main>
       <Footer />
     </>
