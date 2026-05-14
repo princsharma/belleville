@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import { SITE } from '../lib/site'
 
@@ -11,18 +12,14 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-brand-gray-line/70">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
         <Link href="/" aria-label={SITE.name} className="flex items-center gap-2.5 group">
-          <span className="relative inline-flex w-9 h-9 items-center justify-center rounded-xl bg-brand-gradient shadow-glow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path
-                d="M12 3c4 4 6 7 6 11a6 6 0 11-12 0c0-4 2-7 6-11z"
-                fill="white"
-                fillOpacity="0.95"
-              />
-            </svg>
-          </span>
-          <span className="font-bold text-[17px] tracking-tight text-brand-dark">
-            {SITE.city}<span className="text-brand-green">MMJ</span>
-          </span>
+          <Image
+            src="/images/logo.webp"
+            alt={SITE.name}
+            width={220}
+            height={72}
+            priority
+            className="h-12 w-auto object-contain"
+          />
         </Link>
 
         <nav aria-label="Primary" className="hidden md:flex items-center gap-1 text-[14px] font-medium text-brand-slate">
