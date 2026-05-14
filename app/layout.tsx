@@ -64,6 +64,11 @@ export const metadata: Metadata = {
     },
   },
   category: 'health',
+  icons: {
+    icon: [{ url: '/images/fav-icon.webp', type: 'image/webp' }],
+    shortcut: '/images/fav-icon.webp',
+    apple: '/images/fav-icon.webp',
+  },
   verification: {
     google: 'M8HEARMV3CYZFdEApMen6gqrLHTkRkDMPm1d4cfishg',
   },
@@ -157,7 +162,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${sans.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/webp" href="/images/fav-icon.webp" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
